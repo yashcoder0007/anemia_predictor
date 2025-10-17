@@ -1,7 +1,6 @@
-Flask
+gradio>=4.28.0
 numpy
 pandas
 scikit-learn
 joblib
-gunicorn
-gradio>=4.28.0
+
