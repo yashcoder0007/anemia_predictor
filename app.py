@@ -3,7 +3,7 @@ import numpy as np
 
 # Load fitted preprocessor and model
 preprocessor = joblib.load("models/preprocessor.pkl")  # If saved during training
-best_model = joblib.load("models/RandomForest.pkl")
+best_model = joblib.load("models/best_model.pkl")      # <-- CHANGED HERE
 
 def predict_anemia(Gender, Hemoglobin, MCH, MCHC, MCV):
     try:
