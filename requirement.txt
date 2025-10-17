@@ -4,4 +4,4 @@ pandas
 scikit-learn
 joblib
 gunicorn
-gradio
+gradio>=4.28.0
